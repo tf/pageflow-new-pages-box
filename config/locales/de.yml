@@ -1,0 +1,5 @@
+de:
+  pageflow:
+    new_pages_box:
+      widget_type_name: "Box, die auf Seiten neu hinzugefügte, ungelesene Seiten hinweist."
+      chapter: "Kapitel"
