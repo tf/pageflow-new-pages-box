@@ -1,4 +1,4 @@
-require 'pageflow/progress_navigation_bar/engine'
+require 'pageflow/new_pages_box/engine'
 
 module Pageflow
   module NewPagesBox

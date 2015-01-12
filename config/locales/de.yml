@@ -2,4 +2,9 @@ de:
   pageflow:
     new_pages_box:
       widget_type_name: "Box, die auf Seiten neu hinzugefügte, ungelesene Seiten hinweist."
-      chapter: "Kapitel"
+      widget:
+        title: "Neue Seiten"
+        description: "Seit Ihrem letzten Besuch wurden diesem Pageflow neue Seiten hinzugefügt:"
+        close_hint: "Hinweis schließen"
+        additional_pages_before_number: "...und"
+        additional_pages_after_number: "weitere Seiten."

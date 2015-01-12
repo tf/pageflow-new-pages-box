@@ -1,3 +1,13 @@
-<div class="new_pages_box">
-  <h3><%= t(".title") %></h3>
+<div class="new_pages_box" data-widget="new_pages_box">
+  <div class="new_pages_box_wrapper">
+    <h3><%= t(".title") %></h3>
+    <p><%= t(".description") %></p>
+    <ul>
+      <%= render :partial => 'pageflow/new_pages_box/partials/page',
+                     :collection => entry.pages.displayed_in_navigation,
+                     :locals => {:image_style => :navigation_thumbnail_small, :image_width => 85, :chapters_count => entry.chapters.count} %>
+    </ul>
+    <p class="additional_pages_hint"><%= t(".additional_pages_before_number") %> <span class="number"></span> <%= t(".additional_pages_after_number") %></p>
+    <a href="#" class="close_hint"><%= t(".close_hint") %></a>
+  </div>
 </div>

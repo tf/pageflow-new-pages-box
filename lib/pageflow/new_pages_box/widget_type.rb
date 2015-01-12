@@ -6,7 +6,7 @@ module Pageflow
       end
 
       def roles
-        ['new-pages-widget']
+        ['new-pages-box']
       end
     end
   end
