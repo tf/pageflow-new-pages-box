@@ -1,4 +1,4 @@
-# Pageflow Progress Navigation Bar
+# Pageflow New Pages Box
 
 A small box listing the pages that were added since your last visit
 
