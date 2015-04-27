@@ -34,4 +34,4 @@ If you run into problems while installing the page type, please also refer to th
 [Troubleshooting](https://github.com/codevise/pageflow/wiki/Troubleshooting) wiki
 page in the [Pageflow  repository](https://github.com/codevise/pageflow). If that
 doesn't help, consider
-[filing an issue](https://github.com/upsworld/pageflow-new-pages-box/issues).
+[filing an issue](https://github.com/codevise/pageflow-new-pages-box/issues).
