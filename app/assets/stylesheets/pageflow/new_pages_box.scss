@@ -1,15 +1,14 @@
 .new_pages_box {
   .new_pages_box_wrapper {
     display: none;
-    @include box(0);
-    visibility: visible;
+    position: absolute;
+    padding: 15px;
     bottom: 1%;
     right: 1%;
     margin-right: 110px;
     z-index: 1;
     width: 300px;
-    color: white;
-    font-family: SourceSansPro;
+
 
     &:before {
       display: none;
@@ -52,10 +51,11 @@
         top: 0;
         height: 100%;
         z-index: -1;
+        visibility: hidden;
       }
 
       &:hover:before {
-        background-color: rgb(60, 60, 60);
+        visibility: visible;
       }
     }
 
