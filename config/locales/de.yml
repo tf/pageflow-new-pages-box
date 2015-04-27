@@ -1,10 +1,13 @@
 de:
   pageflow:
     new_pages_box:
-      widget_type_name: "Box, die auf Seiten neu hinzugefügte, ungelesene Seiten hinweist."
+      widget_type_name: "Box mit Thumbnails"
       widget:
         title: "Neue Seiten"
-        description: "Seit Ihrem letzten Besuch wurden diesem Pageflow neue Seiten hinzugefügt:"
+        description: "Seit dem letzten Besuch wurden diesem Pageflow neue Seiten hinzugefügt:"
         close_hint: "Hinweis schließen"
-        additional_pages_before_number: "...und"
-        additional_pages_after_number: "weitere Seiten."
+        additional_pages_html: "...und <span></span> weitere"
+
+    widgets:
+      roles:
+        new_pages_box: "Neue Seiten Hinweis"

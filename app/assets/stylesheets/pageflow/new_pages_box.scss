@@ -1,21 +1,22 @@
 .new_pages_box {
-  background-color: blue;
-
   .new_pages_box_wrapper {
     display: none;
     @include box(0);
     visibility: visible;
     bottom: 1%;
     right: 1%;
-    margin-right: 80px;
+    margin-right: 110px;
     z-index: 1;
     width: 300px;
     color: white;
     font-family: SourceSansPro;
 
+    &:before {
+      display: none;
+    }
+
     > h3 {
       margin: 0;
-
     }
 
     @include mobile {
@@ -25,6 +26,7 @@
       top: 50%;
       @include transform(translate(-50%,-50%));
     }
+
     @include phone {
       font-size: 0.8em;
       width: 266px;
@@ -34,11 +36,6 @@
         background-position: center;
         background-size: cover;
       }
-
-    }
-
-    &:before {
-      display: none;
     }
 
     .navigation_site_detail {
@@ -46,8 +43,7 @@
       padding: 6px 0 0 0;
       position: relative;
 
-      &:hover:before {
-        display: block;
+      &:before {
         content: "";
         position: absolute;
         width: 100%;
@@ -56,14 +52,19 @@
         top: 0;
         height: 100%;
         z-index: -1;
+      }
+
+      &:hover:before {
         background-color: rgb(60, 60, 60);
       }
     }
 
     ul {
       padding: 0;
+      list-style: none;
 
       li {
+        display: none;
 
         h2 {
           margin: 0;
@@ -79,13 +80,6 @@
           }
         }
 
-        display: none;
-
-        &:nth-child(1), &:nth-child(2), &:nth-child(3) {
-          display: block;
-        }
-
-
         .title_area {
           position: absolute;
           right: 0;
@@ -100,7 +94,6 @@
 
     hr {
       border: 0;
-      /*border-bottom: 1px solid #9c9c9c; */
       margin: 0;
     }
 
@@ -114,7 +107,7 @@
 
         &:before {
           left: -16px;
-          top: 7px;
+          top: 4px;
           position: absolute;
           background-image: url(/assets/pageflow/anchor_white.png);
           width: 10px;
@@ -134,7 +127,7 @@
     .additional_pages_hint {
       display: none;
 
-      .number {
+      span {
         font-weight: bold;
       }
     }
