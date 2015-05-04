@@ -1,0 +1,12 @@
+en:
+  pageflow:
+    new_pages_box:
+      widget:
+        additional_pages_html: ! '...and <span></span> more'
+        close_hint: Close hint
+        description: ! 'Since your last visit, pages have been added to this pageflow:'
+        title: New Pages
+      widget_type_name: Box with thumbnails
+    widgets:
+      roles:
+        new_pages_box: New pages box
