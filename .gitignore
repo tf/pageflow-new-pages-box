@@ -1,0 +1,16 @@
+*.gem
+*.rbc
+*.sqlite3
+.bundle
+.config
+.yardoc
+.idea
+_yardoc
+coverage
+doc/
+pkg
+spec/reports
+tmp
+log
+Gemfile.lock
+.localeapp
