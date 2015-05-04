@@ -98,8 +98,6 @@
     }
 
     a {
-      color: white;
-
       &.close_hint {
         position: relative;
         margin-left: 15px;
@@ -109,7 +107,7 @@
           left: -16px;
           top: 4px;
           position: absolute;
-          background-image: url(/assets/pageflow/anchor_white.png);
+          background-image: image-url("pageflow/anchor_white.png");
           width: 10px;
           height: 12px;
           content: "";
