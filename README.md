@@ -13,7 +13,7 @@ Add this line to your application's `Gemfile`:
 Register the widget type inside the configure block in `config/initializers/pageflow.rb`
 
     Pageflow.configure do |config|
-      config.widget_types.register(Pageflow::NewPagesBox.widget_type)
+      config.widget_types.register(Pageflow::NewPagesBox.widget_type, default: true)
     end
 
 Include javascripts and stylesheets:
