@@ -1,5 +1,7 @@
 # Pageflow New Pages Box
 
+[![Gem Version](https://badge.fury.io/rb/pageflow-new-pages-box.svg)](http://badge.fury.io/rb/pageflow-new-pages-box)
+
 A small box listing the pages that were added since your last visit
 
 ## Installation
