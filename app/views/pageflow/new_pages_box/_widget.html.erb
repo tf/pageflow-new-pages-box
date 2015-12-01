@@ -1,8 +1,8 @@
 <div class="new_pages_box" data-widget="new_pages_box">
   <% if entry.emphasize_new_pages %>
     <div class="new_pages_box_wrapper">
-      <h3><%= t('.title') %></h3>
-      <p><%= t('.description') %></p>
+      <h3><%= t('pageflow.public.new_pages_box.title') %></h3>
+      <p><%= t('pageflow.public.new_pages_box.description') %></p>
       <ul>
         <%= render(partial: 'pageflow/new_pages_box/page',
                    collection: entry.pages.displayed_in_navigation,
@@ -10,10 +10,10 @@
       </ul>
 
       <p class="additional_pages_hint">
-        <%= t('.additional_pages_html') %>
+        <%= t('pageflow.public.new_pages_box.additional_pages_html') %>
       </p>
 
-      <a href="#" class="close_hint"><%= t('.close_hint') %></a>
+      <a href="#" class="close_hint"><%= t('pageflow.public.close_hint') %></a>
     </div>
   <% end %>
 </div>
