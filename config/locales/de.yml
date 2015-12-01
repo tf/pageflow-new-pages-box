@@ -1,11 +1,6 @@
 de:
   pageflow:
     new_pages_box:
-      widget:
-        additional_pages_html: ! '...und <span></span> weitere'
-        close_hint: Hinweis schließen
-        description: ! 'Seit dem letzten Besuch wurden diesem Pageflow neue Seiten hinzugefügt:'
-        title: Neue Seiten
       widget_type_name: Box mit Thumbnails
     widgets:
       roles:
