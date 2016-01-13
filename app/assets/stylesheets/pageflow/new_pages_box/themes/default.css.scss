@@ -1,11 +1,9 @@
 .new_pages_box {
   $basic-text-color: #fff !default;
-  $border-color: #9c9c9c;
 
   .new_pages_box_wrapper {
     background-color: $basic-background-color;
     background-color: $basic-background-color-transparent;
-    border: 2px solid $border-color;
     color: $basic-text-color;
     font-family: $standard-font;
   }
