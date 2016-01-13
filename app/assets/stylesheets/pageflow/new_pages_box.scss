@@ -29,17 +29,11 @@
     @include phone {
       font-size: 0.8em;
       width: 266px;
-
-      img {
-        width: 136px;
-        background-position: center;
-        background-size: cover;
-      }
     }
 
     .navigation_site_detail {
       display: block;
-      padding: 6px 0 0 0;
+      padding: 6px 0;
       position: relative;
 
       &:before {
