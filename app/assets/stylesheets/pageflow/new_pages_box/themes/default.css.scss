@@ -18,4 +18,8 @@
   a {
     color: $basic-text-color;
   }
+
+  .close_hint {
+    @extend %anchor;
+  }
 }
