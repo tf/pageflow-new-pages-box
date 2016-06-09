@@ -1,12 +1,15 @@
 # coding: utf-8
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'pageflow/new_pages_box/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'pageflow-new-pages-box'
-  spec.version       = '0.2.0.alpha'
+  spec.version       = Pageflow::NewPagesBox::VERSION
   spec.authors       = ['Codevise Solutions Ltd.']
   spec.email         = ['info@codevise.de']
   spec.summary       = 'Pageflow new pages box widget.'
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/codevise/pageflow-new-pages-box'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
@@ -19,4 +22,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake'
+
+  # Semantic versioning rake tasks
+  spec.add_development_dependency 'semmy', '~> 0.2'
 end
