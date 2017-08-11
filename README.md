@@ -21,11 +21,11 @@ Include javascripts and stylesheets:
     # app/assets/javascripts/pageflow/application.js
     //= require pageflow/new_pages_box
 
-    # app/assets/stylesheets/pageflow/application.css.scss
+    # app/assets/stylesheets/pageflow/application.scss
     @import "pageflow/new_pages_box";
 
     # Adding basic style to your theme
-    # app/assets/stylesheets/pageflow/themes/default.css.scss
+    # app/assets/stylesheets/pageflow/themes/default.scss
     @import "pageflow/new_pages_box/themes/default";
 
 Execute `bundle install` Restart the application server.
