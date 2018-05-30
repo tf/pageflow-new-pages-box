@@ -2,6 +2,8 @@
   $basic-text-color: #fff !default;
 
   .new_pages_box_wrapper {
+    @extend %pageflow_widget_margin_bottom !optional;
+
     background-color: $basic-background-color;
     background-color: $basic-background-color-transparent;
     color: $basic-text-color;
